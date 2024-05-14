@@ -3,10 +3,10 @@ export const getImage = async (imgUrl: string) => {
 
   if (imgUrl.includes('i.ytimg.com')) {
     const imgId = imgUrl.split('vi/').pop();
-    url = `/api/image/${imgId}`;
+    url = `/image/${imgId}`;
   } else if (imgUrl.includes('yt3.ggpht.com')) {
     const imgId = imgUrl.split('.com/').pop();
-    url = `/api/channelImage/${imgId}`;
+    url = `/channelImage/${imgId}`;
   }
 
   const response = await fetch(url, {
@@ -14,6 +14,5 @@ export const getImage = async (imgUrl: string) => {
     mode: "cors"
   });
   const blob = await response.blob();
-  const urlObject = window.URL.createObjectURL(blob);
-  return urlObject;
+  return window.URL.createObjectURL(blob);
 };

@@ -12,15 +12,15 @@ export default defineConfig({
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
-      '/api/image': {
+      '/image': {
         target: 'https://i.ytimg.com/vi/',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/image/, ''),
+        rewrite: (path) => path.replace(/^\/image/, ''),
       },
-      '/api/channelImage': {
+      '/channelImage': {
         target: 'https://yt3.ggpht.com/',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/channelImage/, ''),
+        rewrite: (path) => path.replace(/^\/channelImage/, ''),
       },
     },
   },
