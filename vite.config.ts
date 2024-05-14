@@ -7,22 +7,17 @@ export default defineConfig({
   plugins: [react(), UnoCSS()],
   server: {
     proxy: {
-      '/videos': {
+      '/api': {
         target: 'https://www.googleapis.com/youtube/v3',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/videos/, '/videos'),
+        rewrite: (path) => path.replace(/^\/api/, ''),
       },
-      '/channel': {
-        target: 'https://www.googleapis.com/youtube/v3',
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/channel/, ''),
-      },
-      '/image': {
+      '/api/image': {
         target: 'https://i.ytimg.com/vi/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/image/, ''),
       },
-      '/channelImage': {
+      '/api/channelImage': {
         target: 'https://yt3.ggpht.com/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api\/channelImage/, ''),
