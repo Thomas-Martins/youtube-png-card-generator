@@ -25,7 +25,7 @@ export const getVideosInfos = (videoId: string,
       getChannelInfos(response.items[0].snippet.channelId, setChannelInfos)
     })
     .catch((e) => {
-      console.error("Error", e);
+      console.error(e);
     });
 };
 
