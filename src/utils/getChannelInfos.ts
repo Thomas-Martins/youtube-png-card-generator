@@ -7,7 +7,6 @@ export const getChannelInfos = (channelId: string, setChannelInfos: React.Dispat
     {
       method: "GET",
       mode: "cors"
-
     }
   )
     .then((response) => {

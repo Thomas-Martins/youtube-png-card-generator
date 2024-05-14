@@ -11,6 +11,7 @@ export const getVideosInfos = (videoId: string,
     `/api/videos?id=${videoId}&key=${import.meta.env.VITE_API_KEY}&part=snippet,contentDetails,statistics`,
     {
       method: "GET",
+      mode: "cors"
     }
   )
     .then((response) => {
