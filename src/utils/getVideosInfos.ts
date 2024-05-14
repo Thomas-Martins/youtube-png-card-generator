@@ -11,14 +11,12 @@ export const getVideosInfos = (videoId: string,
     `/api/videos?id=${videoId}&key=${import.meta.env.VITE_API_KEY}&part=snippet,contentDetails,statistics`,
     {
       method: "GET",
-      mode: "no-cors"
     }
   )
     .then((response) => {
       if (!response.ok) {
-        throw new Error("Error");
+        throw new Error("Error fetching video");
       }
-      // return response.json();
       return response.json();
 
     })
@@ -31,25 +29,5 @@ export const getVideosInfos = (videoId: string,
     });
 };
 
-// async function getImg(url: string) {
-//   const imgId = url.split('vi/')[1]
-//   try {
-//     const response = await fetch(`/api/image/${imgId}`, {
-//       method: 'GET',
-//       mode: "same-origin"
-//     });
-//     if (!response.ok) {
-//       throw new Error("Error fetching image");
-//     }
-//     const blob = await response.blob();
-//     console.log(blob)
-//     const imageUrl = URL.createObjectURL(blob);
-//     return imageUrl;
-//
-//   } catch (error) {
-//     console.error("Error fetching image:", error);
-//     throw error;
-//   }
-// }
 
 
