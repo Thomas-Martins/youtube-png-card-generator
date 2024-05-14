@@ -8,7 +8,7 @@ export const getVideosInfos = (videoId: string,
                                setChannelInfos: React.Dispatch<React.SetStateAction<ChannelInfo | null>>,
 ) => {
   fetch(
-    `/api/videos?id=${videoId}&key=${import.meta.env.VITE_API_KEY}&part=snippet,contentDetails,statistics`,
+    `/videos?id=${videoId}&key=${import.meta.env.VITE_API_KEY}&part=snippet,contentDetails,statistics`,
     {
       method: "GET",
     }
