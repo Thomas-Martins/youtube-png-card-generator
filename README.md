@@ -1,8 +1,8 @@
 # Youtube PNG Card Generator
 
 Youtube Png Generator is a tool for generate a youtube card from a youtube video URL, Idea proposed
-by [Basti Ui] (https://www.youtube.com/@BastiUi) and
-challenged by [Benjamin Code] (https://www.youtube.com/@BenjaminCode).
+by <a href="https://www.youtube.com/@BastiUi">Basti Ui</a> and
+challenged by <a href="https://www.youtube.com/@BenjaminCode">Benjamin Code</a>.
 
 <img src="/public/banner.png" alt="youtube-card-generator">
 
