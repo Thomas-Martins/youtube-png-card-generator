@@ -37,9 +37,9 @@ function App() {
         </p>
       </div>
 
-      <div className="flex gap-8 justify-center mt-20 px-8">
+      <div className="grid gap-5 lg:flex lg:gap-8 lg:justify-center mt-20 px-8">
         {videosInfos &&
-          <span className="thumbnail-background">
+          <span className="thumbnail-background ">
             <CardPreview videosInfos={videosInfos} channelInfos={channelInfos} progressValue={progressValue}
                          channelDisplay={channelDisplay} statsDisplay={statsDisplay} timerDisplay={timerDisplay}
                          themeDisplay={themeDisplay} paddingCardValue={paddingCardValue} fontSizeValue={fontSizeValue}
