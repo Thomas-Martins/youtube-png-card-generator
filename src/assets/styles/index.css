@@ -1,0 +1,263 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #000;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.thumbnail-background {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: repeating-conic-gradient(#131317, #131317 25%, #232330 0%, #232330 50%);
+    background-size: 25px 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: .75rem;
+    min-width: 40vw;
+    padding: 1rem;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: #5e5e5ee8; /* Fond de la barre de progression */
+    height: 5px;
+    border-radius: 0;
+    position: relative;
+}
+
+.progress {
+    background-color: red; /* Couleur de la progression */
+    height: 100%;
+}
+
+.title-5 {
+    font-size: 10px !important;
+}
+
+.title-6 {
+    font-size: 12px !important;
+}
+
+.title-7 {
+    font-size: 13px !important;
+}
+
+.title-8 {
+    font-size: 14px !important;
+}
+
+.title-9 {
+    font-size: 15px !important;
+}
+
+.title-10 {
+    font-size: 16px !important;
+}
+
+.title-11 {
+    font-size: 18px !important;
+}
+
+.title-12 {
+    font-size: 20px !important;
+}
+
+.title-13 {
+    font-size: 22px !important;
+}
+
+.title-14 {
+    font-size: 24px !important;
+}
+
+.title-15 {
+    font-size: 28px !important;
+}
+
+.text-5 {
+    font-size: 8px !important;
+}
+
+.text-6 {
+    font-size: 9px !important;
+}
+
+.text-7 {
+    font-size: 10px !important;
+}
+
+.text-8 {
+    font-size: 11px !important;
+}
+
+.text-9 {
+    font-size: 12px !important;
+}
+
+.text-10 {
+    font-size: 14px !important;
+}
+
+.text-11 {
+    font-size: 16px !important;
+}
+
+.text-12 {
+    font-size: 18px !important;
+}
+
+.text-13 {
+    font-size: 20px !important;
+}
+
+.text-14 {
+    font-size: 22px !important;
+}
+
+.text-15 {
+    font-size: 24px !important;
+}
+
+.corner-0 {
+    border-radius: 0;
+}
+
+.corner-1 {
+    border-radius: 0.2em;
+}
+
+.corner-2 {
+    border-radius: 0.4em;
+}
+
+.corner-3 {
+    border-radius: 0.6em;
+}
+
+.corner-4 {
+    border-radius: 0.8em;
+}
+
+.corner-5 {
+    border-radius: 1em;
+}
+
+.corner-6 {
+    border-radius: 1.2em;
+}
+
+.corner-7 {
+    border-radius: 1.4em;
+}
+
+.corner-8 {
+    border-radius: 1.6em;
+}
+
+.corner-9 {
+    border-radius: 1.8em;
+}
+
+.corner-10 {
+    border-radius: 2em;
+}
+
+.radius-0 {
+    border-radius: 0;
+}
+
+.radius-1 {
+    border-radius: 0.2em;
+}
+
+.radius-2 {
+    border-radius: 0.4em;
+}
+
+.radius-3 {
+    border-radius: 0.6em;
+}
+
+.radius-4 {
+    border-radius: 0.8em;
+}
+
+.radius-5 {
+    border-radius: 1em;
+}
+
+.radius-6 {
+    border-radius: 1.2em;
+}
+
+.radius-7 {
+    border-radius: 1.4em;
+}
+
+.radius-8 {
+    border-radius: 1.6em;
+}
+
+.radius-9 {
+    border-radius: 1.8em;
+}
+
+.radius-10 {
+    border-radius: 2em;
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.padding-1 {
+    padding: 4px;
+}
+
+.padding-2 {
+    padding: 7px;
+}
+
+.padding-3 {
+    padding: 10px;
+}
+
+.padding-4 {
+    padding: 13px;
+}
+
+.padding-5 {
+    padding: 16px;
+}
+
+.padding-6 {
+    padding: 19px;
+}
+
+.padding-7 {
+    padding: 22px;
+}
+
+.padding-8 {
+    padding: 25px;
+}
+
+.padding-9 {
+    padding: 28px;
+}
+
+.padding-10 {
+    padding: 32px;
+}
