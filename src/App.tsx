@@ -6,7 +6,7 @@ import CardPreview from "./components/CardPreview.tsx";
 import CardOptions from "./components/CardOptions.tsx";
 
 function App() {
-  const defaultUrlId: string = "G7tn5n_PkLM";
+  const defaultUrlId: string = "f7_CHu0ADhM";
   const [videosInfos, setVideoInfos] = useState<VideoInfo | null>(null);
   const [channelInfos, setChannelInfos] = useState<ChannelInfo | null>(null);
   const [progressValue, setProgressValue] = useState<number>(50);
